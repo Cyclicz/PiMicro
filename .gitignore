@@ -102,3 +102,43 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# Compiled output
+/package
+/tmp
+/out-tsc
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+yarn.lock
+/bazel-out
+
+# System Files
+.DS_Store
+Thumbs.db
